@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Addpage2 from "./AnotherComponents/Addpage2";
+import "./App.css";
+import AddPage from "./Components/AddPage";
+import SimplPage from "./Components/SimplPage";
+// import Flexbox from './FlexBx/flexbox';
+import Grid from "./Grid-Layout/grid";
+import GridPart from "./Grid-Layout/gridProj";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Addpage2 />
     </div>
   );
 }
-
 export default App;
